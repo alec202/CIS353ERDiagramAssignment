@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T23:41:02.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="iVHp9MpWxpJkQqExSCFP" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T23:48:47.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="n-jWogEfamIb5Gb8U_E6" version="24.2.0" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="671" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -53,7 +53,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FYlKtJ1EGxiQtm9-EcXI-13" value="Plays for" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FYlKtJ1EGxiQtm9-EcXI-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FYlKtJ1EGxiQtm9-EcXI-13" target="FYlKtJ1EGxiQtm9-EcXI-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -122,6 +122,51 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="490" as="sourcePoint" />
             <mxPoint x="600" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-31" value="Injury Data" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-32" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;Injury ID&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="780" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FYlKtJ1EGxiQtm9-EcXI-32" target="FYlKtJ1EGxiQtm9-EcXI-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="450" as="sourcePoint" />
+            <mxPoint x="770" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-34" value="Player name" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FYlKtJ1EGxiQtm9-EcXI-31" target="FYlKtJ1EGxiQtm9-EcXI-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="370" as="sourcePoint" />
+            <mxPoint x="880" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-36" value="Severity" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="890" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-37" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.03;entryY=0.675;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FYlKtJ1EGxiQtm9-EcXI-31" target="FYlKtJ1EGxiQtm9-EcXI-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="300" as="sourcePoint" />
+            <mxPoint x="800" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.158;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.83;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FYlKtJ1EGxiQtm9-EcXI-11" target="FYlKtJ1EGxiQtm9-EcXI-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="560" as="sourcePoint" />
+            <mxPoint x="590" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-39" value="gets Injured" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FYlKtJ1EGxiQtm9-EcXI-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0.308;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FYlKtJ1EGxiQtm9-EcXI-11" target="FYlKtJ1EGxiQtm9-EcXI-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="sourcePoint" />
+            <mxPoint x="610" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
